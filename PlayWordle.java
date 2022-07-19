@@ -1,9 +1,8 @@
-
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
 
-public class WordLLExamples {
+public class PlayWordle {
 	private static Scanner scan;
 	private static final int NUMBER_OF_WORDS = 2992; // Number of possible mystery words
 	private static String[] mysteryWord = new String[NUMBER_OF_WORDS];
